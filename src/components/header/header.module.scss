@@ -1,0 +1,38 @@
+.header {
+    height: 55px;
+    box-sizing: border-box;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+}
+
+.left {
+
+    .logo {
+        font-size: 18px;
+        font-weight: 600;
+        color: #1976d2;
+    }
+}
+
+.right {
+    display: flex;
+    align-items: center;
+
+    a {
+        font-size: 16px;
+        color:#1976d2;
+        margin-right: 30px;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}

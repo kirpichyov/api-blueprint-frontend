@@ -1,0 +1,32 @@
+.parametersContainer {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.parametersHeader {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.jsonContainer {
+}
+
+.jsonHeader {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.json {
+    min-height: 130px;
+    background-color: #F4F4F4;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 64px;
+}
+
+.jsonPrettier {
+    flex: 1;
+    margin-left: 20px;
+    box-sizing: border-box;
+}

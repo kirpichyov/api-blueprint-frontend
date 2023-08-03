@@ -1,0 +1,33 @@
+.projects {
+
+} 
+
+.inputBox {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.controlls {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.cardList {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .cardList {
+        grid-template-columns: repeat(2, auto);
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .cardList {
+        grid-template-columns: repeat(1, auto);
+    }
+  }

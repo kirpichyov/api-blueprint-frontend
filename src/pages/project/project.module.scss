@@ -1,0 +1,31 @@
+.container {
+    width: 100%;
+    display: flex;
+    height: calc(100vh - 55px);
+}
+
+.content {
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    border-bottom: 1px solid #EDEDED;
+
+    span {
+        padding-bottom: 10px;
+    }
+
+    .name {
+        font-weight: 700;
+        font-size: 22px;
+        margin-top: 10px;
+    }
+
+    .route {
+        font-weight: 600;
+    }
+}
+

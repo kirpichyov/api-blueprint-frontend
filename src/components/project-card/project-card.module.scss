@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectCard {
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.projectImage {
+    height: 100px;
+    width: 100%;
+    background-color: #d9d9d9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cardInfo {
+    padding: 5px;
+}
+
+.cardName {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px 0px;
+}
+
+.cardDescription {
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    height: 52px; 
+}
+
+.infoButtom {
+    margin-top: 5px;
+    justify-content: space-between;
+    font-size: 12px;
+    color: gray;
+}

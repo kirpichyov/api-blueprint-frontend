@@ -1,0 +1,16 @@
+
+.input {
+    width: 100%;
+    font-size: 16px;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 2px solid #d7d7d7;
+    padding: 5px 2px;    
+    padding: 5px 2px;
+    margin-bottom: 5px;
+    
+    &:focus {
+        outline: none;
+        border-bottom: 2px solid #1976d2;
+    }
+}

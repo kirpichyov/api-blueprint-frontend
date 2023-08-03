@@ -1,0 +1,26 @@
+.sidebar {
+    height: 100%;
+    width: 350px;
+    min-width: 270px;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+
+.top {
+    padding: 12px 10px;
+    border-bottom: 1px solid #EDEDED;
+
+    span {
+        font-weight: 600;
+        font-size: 18px;
+    }
+}
+
+.buttonBox {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
